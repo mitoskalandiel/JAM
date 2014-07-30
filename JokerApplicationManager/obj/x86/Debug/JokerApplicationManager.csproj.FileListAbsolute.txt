@@ -1,0 +1,24 @@
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\bin\Debug\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\bin\Debug\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.Properties.Resources.resources
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.csproj.GenerateResource.Cache
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.AboutBox1.resources
+C:\Users\smeierzubiesen\AppData\Local\Temporary Projects\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.MainForm.resources
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.csprojResolveAssemblyReference.cache
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.AboutBox1.resources
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.MainForm.resources
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.OptionsForm.resources
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.Properties.Resources.resources
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.csproj.GenerateResource.Cache
+C:\Users\smeierzubiesen\Documents\Visual Studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\JokerApplicationManager.exe.manifest
+C:\Users\smeierzubiesen\Documents\Visual Studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\JokerApplicationManager.application
+C:\Users\smeierzubiesen\Documents\Visual Studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.exe.manifest
+C:\Users\smeierzubiesen\Documents\Visual Studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Debug\JokerApplicationManager.application
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\JokerApplicationManager.exe.config
+C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Debug\.xml
