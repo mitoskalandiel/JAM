@@ -89,6 +89,9 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="officesplash_MetroProgressBar">
+      <HintPath>..\..\..\..\Downloads\c-sharp stuff\officesplash_MetroProgressBar.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

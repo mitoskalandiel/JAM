@@ -15,5 +15,10 @@ namespace JokerApplicationManager
         {
             InitializeComponent();
         }
+
+        private void closeLabel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

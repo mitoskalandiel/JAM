@@ -30,6 +30,7 @@
         {
             this.closeLabel = new System.Windows.Forms.Label();
             this.miniLabel = new System.Windows.Forms.Label();
+            this.progressbar1 = new MetroProgressBar.Progressbar();
             this.SuspendLayout();
             // 
             // closeLabel
@@ -41,6 +42,7 @@
             this.closeLabel.Size = new System.Drawing.Size(17, 17);
             this.closeLabel.TabIndex = 1;
             this.closeLabel.Text = "X";
+            this.closeLabel.Click += new System.EventHandler(this.closeLabel_Click);
             // 
             // miniLabel
             // 
@@ -51,12 +53,22 @@
             this.miniLabel.TabIndex = 2;
             this.miniLabel.Text = "_";
             // 
+            // progressbar1
+            // 
+            this.progressbar1.BackColor = System.Drawing.Color.Transparent;
+            this.progressbar1.Location = new System.Drawing.Point(13, 166);
+            this.progressbar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressbar1.Name = "progressbar1";
+            this.progressbar1.Size = new System.Drawing.Size(411, 17);
+            this.progressbar1.TabIndex = 3;
+            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::JokerApplicationManager.Properties.Resources.officesplash_6;
             this.ClientSize = new System.Drawing.Size(439, 248);
+            this.Controls.Add(this.progressbar1);
             this.Controls.Add(this.miniLabel);
             this.Controls.Add(this.closeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -73,5 +85,6 @@
 
         private System.Windows.Forms.Label closeLabel;
         private System.Windows.Forms.Label miniLabel;
+        private MetroProgressBar.Progressbar progressbar1;
     }
 }
