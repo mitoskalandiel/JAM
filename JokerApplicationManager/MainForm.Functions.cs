@@ -14,7 +14,6 @@ namespace JokerApplicationManager
 
         private void closeApp()
         {
-            userSettings.SaveSettings();
             Application.Exit();
         }
 
@@ -24,21 +23,26 @@ namespace JokerApplicationManager
             this.stopTimer();
         }
 
-        private void setStatus(string text, int time = 3000)
+        private void setStatus(string text)
         {
             toolStripStatusLabel2.Text = text;
-            startTimer(time);
+            startTimer();
         }
 
-        private void startTimer(int time)
+        private void startTimer()
         {
-            this.timer1.Interval = time;
+            this.timer1.Interval = Decimal.ToInt32(userSettings.StatusTimeout)*1000;
             this.timer1.Enabled = true;
         }
 
         private void stopTimer()
         {
             this.timer1.Enabled = false;
+        }
+
+        private void saveUserSettings()
+        {
+            
         }
 
     }

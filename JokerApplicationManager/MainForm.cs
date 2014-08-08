@@ -15,7 +15,7 @@ namespace JokerApplicationManager
     public partial class MainForm : Form
     {
 
-        UserSettings userSettings;        
+        public UserSettings userSettings;        
         
         /// <summary>
         /// Main Form Constructor
@@ -24,9 +24,7 @@ namespace JokerApplicationManager
         {
             InitializeComponent();
             userSettings = new UserSettings();
-            userSettings.StatusTimeout = 1;
-            userSettings.SaveSettings();
-            this.startTimer(userSettings.StatusTimeout);
+            this.startTimer();
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,20 +45,27 @@ namespace JokerApplicationManager
 
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
             OptionsForm myOptions = new OptionsForm();
             var myResult = myOptions.ShowDialog(this);
+///            Action saveUserSettings = new Action(() =>
+///            {
+///                userSettings.StatusTimeout = myOptions.
+///            }
+///            );
             if (myResult == DialogResult.Cancel)
             {
-                setStatus("Cancelled", userSettings.StatusTimeout);
+                setStatus("Cancelled");
             }
             else if (myResult == DialogResult.OK)
             {
+///                saveUserSettings();
                 userSettings.SaveSettings();
-                setStatus("Saved",this.userSettings.StatusTimeout);
+                setStatus("Saved");
             }
             else
             {
-                setStatus("Invalid", this.userSettings.StatusTimeout);
+                setStatus("Invalid");
             }
         }
     
