@@ -16,3 +16,4 @@ C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.application
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.exe
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.Splash.resources
