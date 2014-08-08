@@ -14,3 +14,19 @@ C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationMa
 C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Release\.xml
 C:\Users\smeierzubiesen\Documents\Visual Studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\bin\Release\JokerApplicationManager.exe.config
 C:\Users\smeierzubiesen\documents\visual studio 2010\Projects\JokerApplicationManager\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.csprojResolveAssemblyReference.cache
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\JokerApplicationManager.exe.config
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\JokerApplicationManager.exe.manifest
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\JokerApplicationManager.application
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\JokerApplicationManager.exe
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\JokerApplicationManager.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\Release\.xml
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.csprojResolveAssemblyReference.cache
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.AboutBox1.resources
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.MainForm.resources
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.OptionsForm.resources
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.Properties.Resources.resources
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.csproj.GenerateResource.Cache
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.exe.manifest
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x86\Release\JokerApplicationManager.application

@@ -20,33 +20,6 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:JokerApplicationManager.OptionsForm">
-            <summary>
-            This form contains the options dialog and interacts with UserSettings Class
-            </summary>
-        </member>
-        <member name="F:JokerApplicationManager.OptionsForm.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:JokerApplicationManager.OptionsForm.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:JokerApplicationManager.OptionsForm.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="M:JokerApplicationManager.OptionsForm.#ctor">
-            <summary>
-            Options Form Constructor
-            </summary>
-        </member>
         <member name="T:JokerApplicationManager.MainForm">
             <summary>
             This is the start of the application and relies on UserSettings class
@@ -90,6 +63,38 @@
             </summary>
             <value name="StatusTimeout">Amount of seconds for timeout</value>
         </member>
+        <member name="T:JokerApplicationManager.OptionsForm">
+            <summary>
+            This form contains the options dialog and interacts with UserSettings Class
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.OptionsForm.#ctor">
+            <summary>
+            Options Form Constructor
+            </summary>
+        </member>
+        <member name="F:JokerApplicationManager.OptionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.OptionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:JokerApplicationManager.OptionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
         <member name="T:JokerApplicationManager.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
@@ -104,11 +109,6 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
-            </summary>
-        </member>
-        <member name="M:JokerApplicationManager.Program.Main">
-            <summary>
-            The main entry point for the application.
             </summary>
         </member>
     </members>
