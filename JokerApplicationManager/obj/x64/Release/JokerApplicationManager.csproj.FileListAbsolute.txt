@@ -1,5 +1,4 @@
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\x64\Release\JokerApplicationManager.exe.config
-C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.csprojResolveAssemblyReference.cache
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.AboutBox1.resources
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.MainForm.resources
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.OptionsForm.resources
@@ -17,3 +16,4 @@ C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.exe
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.pdb
 C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\obj\x64\Release\JokerApplicationManager.Splash.resources
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerApplicationManager\bin\x64\Release\MetroProgressBar.dll
