@@ -36,7 +36,7 @@ namespace JokerApplicationManager
         }
 
         /// <summary>
-        /// Whether the application nsaves its settings during exit
+        /// Whether the application saves its settings during exit
         /// </summary>
         /// <value name="SaveOnExit">Boolean</value>
         public bool SaveOnExit
@@ -45,6 +45,19 @@ namespace JokerApplicationManager
             set { JokerApplicationManager.Properties.Settings.Default.SaveOnExit = value; }
         }
 
+        /// <summary>
+        /// Whether the Application starts with a Splash Screen or not
+        /// </summary>
+        /// <value name="ShowSplash">Boolean</value>
+        public bool ShowSplash
+        {
+            get { return JokerApplicationManager.Properties.Settings.Default.ShowSplash; }
+            set { JokerApplicationManager.Properties.Settings.Default.ShowSplash = value; }
+        }
+
+        /// <summary>
+        /// Saves User Settings into the Local Profile Data Directory
+        /// </summary>
         public void SaveSettings()
         {
             JokerApplicationManager.Properties.Settings.Default.Save();

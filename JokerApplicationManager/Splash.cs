@@ -17,15 +17,18 @@ namespace JokerApplicationManager
         {
             InitializeComponent();
             tasks.Text = "Starting ...";
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             tasks.Text = "Initializing System ...";
             Thread.Sleep(2000);
             tasks.Text = "Checking Connection to JAF API ...";
             Thread.Sleep(5000);
-            splashtime.Start();
+            //splashtime.Start();
             
         }
 
+        /// <summary>
+        /// Boolean that holds whether Splash is minimized or not.
+        /// </summary>
         public bool IsMinimized = false;
 
         private void closeLabel_Click(object sender, EventArgs e)
@@ -50,24 +53,27 @@ namespace JokerApplicationManager
 
         private void closeLabel_MouseHover(object sender, EventArgs e)
         {
-            closeLabel.ForeColor = Color.Silver;
+            closeLabel.ForeColor = Color.White;
         }
 
         private void closeLabel_MouseLeave(object sender, EventArgs e)
         {
-            closeLabel.ForeColor = Color.Black;
+            closeLabel.ForeColor = Color.Silver;
         }
 
         private void miniLabel_MouseHover(object sender, EventArgs e)
         {
-            miniLabel.ForeColor = Color.Silver;
+            miniLabel.ForeColor = Color.White;
         }
 
         private void miniLabel_MouseLeave(object sender, EventArgs e)
         {
-            miniLabel.ForeColor = Color.Black;
+            miniLabel.ForeColor = Color.Silver;
         }
 
+        /// <summary>
+        /// Open the Main Window after determining whether it needs opened minimized or normal
+        /// </summary>
         public void frmNewFormThread()
         {
             var frmNewForm = new MainForm();
@@ -78,6 +84,11 @@ namespace JokerApplicationManager
                 frmNewForm.WindowState = FormWindowState.Normal;
             }
             Application.Run(frmNewForm);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            splashtime.Start();
         }
     }
 }

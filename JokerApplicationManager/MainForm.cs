@@ -68,7 +68,6 @@ namespace JokerApplicationManager
                 setStatus("Invalid");
             }
         }
-    
 
     }
 }

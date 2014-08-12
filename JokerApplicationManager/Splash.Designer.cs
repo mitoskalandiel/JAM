@@ -34,6 +34,7 @@
             this.progressbar1 = new MetroProgressBar.Progressbar();
             this.tasks = new System.Windows.Forms.Label();
             this.splashtime = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // closeLabel
@@ -87,20 +88,35 @@
             this.splashtime.Interval = 5000;
             this.splashtime.Tick += new System.EventHandler(this.splashtime_Tick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(395, 34);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Joker Application Framework";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::JokerApplicationManager.Properties.Resources.officesplash_6;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(439, 248);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tasks);
             this.Controls.Add(this.progressbar1);
             this.Controls.Add(this.miniLabel);
             this.Controls.Add(this.closeLabel);
+            this.ForeColor = System.Drawing.Color.Silver;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(439, 248);
             this.MinimumSize = new System.Drawing.Size(439, 248);
             this.Name = "Splash";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -114,5 +130,6 @@
         private MetroProgressBar.Progressbar progressbar1;
         private System.Windows.Forms.Label tasks;
         private System.Windows.Forms.Timer splashtime;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -46,5 +46,17 @@ namespace JokerApplicationManager.Properties {
                 this["StatusTimeOut"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ShowSplash {
+            get {
+                return ((bool)(this["ShowSplash"]));
+            }
+            set {
+                this["ShowSplash"] = value;
+            }
+        }
     }
 }

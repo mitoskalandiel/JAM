@@ -34,15 +34,19 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.saveOnExitCheckBox = new System.Windows.Forms.CheckBox();
+            this.splashCheckBox = new System.Windows.Forms.CheckBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.tabPage2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -60,6 +64,7 @@
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.numericUpDown1);
             this.tabPage1.Location = new System.Drawing.Point(4, 36);
@@ -78,15 +83,6 @@
             this.label2.Size = new System.Drawing.Size(129, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Status Bar Timeout";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::JokerApplicationManager.Properties.Settings.Default, "StatusTimeOut", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.numericUpDown1.Location = new System.Drawing.Point(193, 40);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 0;
-            this.numericUpDown1.Value = global::JokerApplicationManager.Properties.Settings.Default.StatusTimeOut;
             // 
             // tabPage2
             // 
@@ -132,6 +128,50 @@
             this.button2.Text = "OK";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.saveOnExitCheckBox);
+            this.panel1.Controls.Add(this.splashCheckBox);
+            this.panel1.Location = new System.Drawing.Point(42, 63);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(271, 228);
+            this.panel1.TabIndex = 2;
+            // 
+            // saveOnExitCheckBox
+            // 
+            this.saveOnExitCheckBox.AutoSize = true;
+            this.saveOnExitCheckBox.Checked = global::JokerApplicationManager.Properties.Settings.Default.SaveOnExit;
+            this.saveOnExitCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.saveOnExitCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::JokerApplicationManager.Properties.Settings.Default, "SaveOnExit", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.saveOnExitCheckBox.Location = new System.Drawing.Point(4, 32);
+            this.saveOnExitCheckBox.Name = "saveOnExitCheckBox";
+            this.saveOnExitCheckBox.Size = new System.Drawing.Size(163, 21);
+            this.saveOnExitCheckBox.TabIndex = 1;
+            this.saveOnExitCheckBox.Text = "Save Settings on Exit";
+            this.saveOnExitCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // splashCheckBox
+            // 
+            this.splashCheckBox.AutoSize = true;
+            this.splashCheckBox.Checked = global::JokerApplicationManager.Properties.Settings.Default.ShowSplash;
+            this.splashCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.splashCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::JokerApplicationManager.Properties.Settings.Default, "ShowSplash", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.splashCheckBox.Location = new System.Drawing.Point(4, 4);
+            this.splashCheckBox.Name = "splashCheckBox";
+            this.splashCheckBox.Size = new System.Drawing.Size(170, 21);
+            this.splashCheckBox.TabIndex = 0;
+            this.splashCheckBox.Text = "Enable Splash Screen";
+            this.splashCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::JokerApplicationManager.Properties.Settings.Default, "StatusTimeOut", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.numericUpDown1.Location = new System.Drawing.Point(193, 40);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown1.TabIndex = 0;
+            this.numericUpDown1.Value = global::JokerApplicationManager.Properties.Settings.Default.StatusTimeOut;
+            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -145,9 +185,11 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -162,5 +204,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.CheckBox saveOnExitCheckBox;
+        private System.Windows.Forms.CheckBox splashCheckBox;
     }
 }
