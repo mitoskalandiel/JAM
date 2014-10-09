@@ -22,41 +22,5 @@ namespace JokerApplicationManager.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool SaveOnExit {
-            get {
-                return ((bool)(this["SaveOnExit"]));
-            }
-            set {
-                this["SaveOnExit"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2")]
-        public decimal StatusTimeOut {
-            get {
-                return ((decimal)(this["StatusTimeOut"]));
-            }
-            set {
-                this["StatusTimeOut"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool ShowSplash {
-            get {
-                return ((bool)(this["ShowSplash"]));
-            }
-            set {
-                this["ShowSplash"] = value;
-            }
-        }
     }
 }

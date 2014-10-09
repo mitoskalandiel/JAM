@@ -1,0 +1,7 @@
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\bin\Release\JAMLib.dll
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\bin\Release\JAMLib.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\bin\Release\JokerAPI.dll
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\bin\Release\JokerAPI.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\obj\Release\JAMLib.csprojResolveAssemblyReference.cache
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\obj\Release\JAMLib.dll
+C:\Users\smeierzubiesen\Source\Repos\JAM\JAMLib\obj\Release\JAMLib.pdb
