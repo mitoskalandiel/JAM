@@ -1,0 +1,4 @@
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerAPI\bin\Release\JokerAPI.dll
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerAPI\bin\Release\JokerAPI.pdb
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerAPI\obj\Release\JokerAPI.dll
+C:\Users\smeierzubiesen\Source\Repos\JAM\JokerAPI\obj\Release\JokerAPI.pdb

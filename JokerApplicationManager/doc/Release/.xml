@@ -23,11 +23,14 @@
         <member name="T:JokerApplicationManager.MainForm">
             <summary>
             This is the start of the application and relies on UserSettings class
+            This specific Class only handles all form events
+            MainForm.Functions deals with all the computing behind it
+            UserSettings contains a handle into the user changeable settings
             </summary>
         </member>
-        <member name="M:JokerApplicationManager.MainForm.#ctor">
+        <member name="F:JokerApplicationManager.MainForm.userSettings">
             <summary>
-            Main Form Constructor
+            Contains an instance of the UserSettings
             </summary>
         </member>
         <member name="F:JokerApplicationManager.MainForm.components">
@@ -47,6 +50,119 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:JokerApplicationManager.MainForm.#ctor">
+            <summary>
+            Main Form Constructor
+            </summary>
+        </member>
+        <member name="T:JokerApplicationManager.Properties.Settings">
+            <summary>
+            This contains all user settings as a seperate Class
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Properties.Settings.#ctor">
+            <summary>
+            Settings Class Constructor
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Properties.Settings.SettingChangingEventHandler(System.Object,System.Configuration.SettingChangingEventArgs)">
+            <summary>
+            Event Handler for Saving Settings
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:JokerApplicationManager.Splash">
+            <summary>
+            Contains the whole SplashForm and it's functions.
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.#ctor">
+            <summary>
+            Splash Screen Constructor
+            </summary>
+        </member>
+        <member name="F:JokerApplicationManager.Splash.IsMinimized">
+            <summary>
+            Boolean that holds whether Splash is minimized or not.
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.closeLabel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Click Event for the Closing "X"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.splashtime_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Tick Event for the SplashTimer
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.startApp">
+            <summary>
+            This starts the MainForm Form
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.miniLabel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Click Event for the Minimize Label "_"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.closeLabel_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Change colour for the Closing "X" on mouse over
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.closeLabel_MouseLeave(System.Object,System.EventArgs)">
+            <summary>
+            Change colour back for the Closing "X" on mouse leave
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.miniLabel_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Change colour for the Minimize "_" on mouse over
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.miniLabel_MouseLeave(System.Object,System.EventArgs)">
+            <summary>
+            Change colour back for the Minimize "_" on mouse leave
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.frmNewFormThread">
+            <summary>
+            Open the Main Window after determining whether it needs opening minimized or normal
+            </summary>
+        </member>
+        <member name="F:JokerApplicationManager.Splash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:JokerApplicationManager.Splash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:JokerApplicationManager.UserSettings">
             <summary>
             This class handles all user settings
@@ -57,6 +173,19 @@
             UserSettings Constructor
             </summary>
         </member>
+        <member name="M:JokerApplicationManager.UserSettings.SaveSettings">
+            <summary>
+            Saves User Settings into the Local Profile Data Directory
+            </summary>
+            <remarks>
+            In the future this will use XML files instead of the local User Profile.
+            </remarks>
+        </member>
+        <member name="M:JokerApplicationManager.UserSettings.ReadSettings">
+            <summary>
+            This reads the AppSettings from the apps XML file
+            </summary>
+        </member>
         <member name="P:JokerApplicationManager.UserSettings.StatusTimeout">
             <summary>
             Sets/Gets the amount of time for the statusbar updates to last
@@ -65,13 +194,24 @@
         </member>
         <member name="P:JokerApplicationManager.UserSettings.SaveOnExit">
             <summary>
-            Whether the application nsaves its settings during exit
+            Whether the application saves its settings during exit
             </summary>
             <value name="SaveOnExit">Boolean</value>
+        </member>
+        <member name="P:JokerApplicationManager.UserSettings.ShowSplash">
+            <summary>
+            Whether the Application starts with a Splash Screen or not
+            </summary>
+            <value name="ShowSplash">Boolean</value>
         </member>
         <member name="T:JokerApplicationManager.OptionsForm">
             <summary>
             This form contains the options dialog and interacts with UserSettings Class
+            </summary>
+        </member>
+        <member name="F:JokerApplicationManager.OptionsForm.userSettings">
+            <summary>
+            Contains an instance of the UserSettings
             </summary>
         </member>
         <member name="M:JokerApplicationManager.OptionsForm.#ctor">
@@ -115,6 +255,11 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:JokerApplicationManager.Properties.Resources.officesplash_6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
     </members>

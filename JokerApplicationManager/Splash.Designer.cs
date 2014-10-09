@@ -98,7 +98,6 @@
             this.label1.Size = new System.Drawing.Size(395, 34);
             this.label1.TabIndex = 5;
             this.label1.Text = "Joker Application Framework";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Splash
             // 

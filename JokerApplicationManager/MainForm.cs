@@ -6,26 +6,25 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using JAMLib;
+using JokerAPI;
 
 namespace JokerApplicationManager
 {
     /// <summary>
     /// This is the start of the application and relies on UserSettings class
+    /// This specific Class only handles all form events
+    /// MainForm.Functions deals with all the computing behind it
+    /// UserSettings contains a handle into the user changeable settings
     /// </summary>
     public partial class MainForm : Form
     {
 
-        public UserSettings userSettings;        
         
         /// <summary>
-        /// Main Form Constructor
+        /// Contains an instance of the UserSettings
         /// </summary>
-        public MainForm()
-        {
-            InitializeComponent();
-            userSettings = new UserSettings();
-            this.startTimer();
-        }
+        UserSettings userSettings = UserSettings.Instance;
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -45,23 +44,11 @@ namespace JokerApplicationManager
 
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
             OptionsForm myOptions = new OptionsForm();
             var myResult = myOptions.ShowDialog(this);
-///            Action saveUserSettings = new Action(() =>
-///            {
-///                userSettings.StatusTimeout = myOptions.
-///            }
-///            );
-            if (myResult == DialogResult.Cancel)
+            if (myResult == DialogResult.OK)
             {
-                setStatus("Cancelled");
-            }
-            else if (myResult == DialogResult.OK)
-            {
-///                saveUserSettings();
-                userSettings.SaveSettings();
-                setStatus("Saved");
+                setStatus("Settings Saved!");
             }
             else
             {
